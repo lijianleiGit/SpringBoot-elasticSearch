@@ -1,0 +1,9 @@
+pring:
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+      cluster-nodes: 47.111.162.174:9300 # 集群模式下用逗号分开
+      cluster-name: elasticsearch
+      properties:
+        xpack.security.user: elastic:toctec1234567.
